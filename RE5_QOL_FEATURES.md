@@ -156,7 +156,7 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 - Casual walk animation in chapter 1-1 now works regardless of character and outfit chosen.
 - Changing characters in the main campaign no longer breaks infinite ammo functionality.
 - Fixed missing damage animations against Blobs/Guardians of Insanity and Wesker in Lost in Nightmares. Refer to optional tweaks section to disable it.
-- The DLC knife and Barry's Samurai Edge will now grant the player points for damage dealt to players in Survivors.
+- The DLC knife and Barry's Samurai Edge will now grant the player points for damage dealt to players in Survivors/Team Survivors.
 - UI and stage props will now display when the camera is forced to follow a CPU controlled character.
 - Shots fired by Barry's Samurai Edge no longer automatically count as missed shots.
 - Fixed Barry's Headbutt and Excella's Humiliate melee attacks outside of Mercenaries Reunion, and First Aid no longer crashes the game.
