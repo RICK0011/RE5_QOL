@@ -17,18 +17,18 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 
 - Se ha restaurado la búsqueda de rutas de los enemigos. Esto **no** está relacionado con los problemas de colisión provocados por las tasas de fotogramas elevadas.
 - Se han incorporado opciones de gestión del inventario de la versión de Nintendo Switch, aplicables a los objetos del juego (armas, munición, granadas, hierbas curativas, etc.):
-  - **Dar todo** y **Pedir todo** permiten transferir objetos sin respetar la cantidad máxima establecida para cada entrega (por ejemplo, 30 balas de pistola o 1 huevo). La segunda opción solo está disponible con un compañero controlado por la CPU, ya que corresponde al otro jugador decidir cuánto quiere darte. Si pulsas el botón de dar con el inventario cerrado, se utilizará la última opción seleccionada. Esta preferencia se restablece al cargar un nivel y vuelve a la opción original «Dar».
+  - **Dar todo** y **Pedir todo** permiten transferir objetos sin respetar la cantidad máxima establecida para cada entrega (por ejemplo, 30 balas de pistola o 1 huevo). La segunda opción solo está disponible con un compañero controlado por la CPU, ya que corresponde al otro jugador decidir cuánto quiere darte. Si pulsas el botón de dar con el inventario cerrado, se utilizará la última opción seleccionada. Esta preferencia se restablece al cargar un nivel y vuelve a la opción original "Dar".
   - La opción **Intercambiar** permanece disponible en el inventario del compañero, incluso cuando el tuyo no está lleno.
   - La opción **Combinar** solo aparece cuando el objeto puede combinarse con otro.
 - Se han restaurado los iconos del inventario eliminados en la actualización 1.2.0:
   - El resaltado del objeto equipado.
-  - La letra «E» que indica que un objeto está equipado.
+  - La letra "E" que indica que un objeto está equipado.
   - El indicador de munición infinita.
 - Se han añadido nuevos ajustes de calidad de sombras. Las opciones anteriores LOW, MEDIUM y HIGH pasan a ser OFF, LOWEST y LOW, respectivamente. Las resoluciones de los mapas de sombras, en orden, son: desactivadas, 512, 1024, 2048, 3072 y 4096.
 - Los giros rápidos al apuntar ahora se muestran correctamente en partidas en línea con tasas distintas de 30 FPS.
 - Se ha corregido un bloqueo en la lista de sesiones que se producía al intentar entrar en una sala y recibir un mensaje de error.
 - Ya no es posible cambiar repetidamente de personaje en las salas de Mercenarios y Versus manteniendo pulsados ambos gatillos. Esto reproduce el comportamiento del parche original de consolas y debería evitar actualizaciones excesivas en línea y posibles problemas de sincronización en las salas.
-- En la versión 1.2.0, el mensaje «El otro jugador no está preparado» de las salas de Mercenarios y Versus mostraba el botón y el texto «Atrás» tanto al anfitrión como al invitado. Se ha corregido este error visual para que no aparezcan cuando no eres el anfitrión.
+- En la versión 1.2.0, el mensaje "El otro jugador no está preparado" de las salas de Mercenarios y Versus mostraba el botón y el texto "Atrás" tanto al anfitrión como al invitado. Se ha corregido este error visual para que no aparezcan cuando no eres el anfitrión.
 - Se ha corregido la posición del nombre del personaje en el inventario durante la partida. Consulta `InventoryNameType` en Modificaciones opcionales para obtener más información.
 - Se ha añadido **Sin piedad** a Mercenarios Reunión, tomando como referencia Mercenarios Unidos, incluido su sistema de puntuación. En esta versión no es posible guardar récords y se desconoce si esto cambiará en el futuro.
 - La pantalla de selección de personajes de Sin piedad ahora muestra correctamente los rangos de ese modo, en lugar de los del modo individual.
@@ -37,15 +37,15 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Se ha renovado el menú de opciones:
   - Se han corregido las animaciones de transición entre menús.
   - Se han ajustado las coordenadas verticales para que coincidan con las animaciones de transición.
-  - Se ha sustituido la opción «Predeterminado» por un acceso directo para restablecer los valores predeterminados.
+  - Se ha sustituido la opción "Predeterminado" por un acceso directo para restablecer los valores predeterminados.
 - Se ha corregido parcialmente el ajuste de calidad general. Algunos parámetros, como el nivel de detalle (LOD), ahora se configuran correctamente tomando como referencia la versión de Games for Windows Live, aunque todavía falta bastante código.
-- Se han recuperado líneas de voz del DLC que faltaban para Chris, Sheva y Jill. Aunque esto afecta principalmente a partidas con mods, ahora, por ejemplo, podrás oír a Chris o Sheva gritar «¡Josh!» cuando este muere en la campaña principal. Puede desactivarse desde Modificaciones opcionales.
+- Se han recuperado líneas de voz del DLC que faltaban para Chris, Sheva y Jill. Aunque esto afecta principalmente a partidas con mods, ahora, por ejemplo, podrás oír a Chris o Sheva gritar "¡Josh!" cuando este muere en la campaña principal. Puede desactivarse desde Modificaciones opcionales.
 - Jill (y cualquier otra mujer diestra) ahora dispone de una animación de recarga más adecuada para el S&W M29. Puede desactivarse desde Modificaciones opcionales.
-- Se ha ampliado la compatibilidad con caracteres especiales en los nombres de usuario de Steam. Los caracteres no admitidos deberían aparecer como un cuadrado blanco («□») en lugar de símbolos ilegibles.
+- Se ha ampliado la compatibilidad con caracteres especiales en los nombres de usuario de Steam. Los caracteres no admitidos deberían aparecer como un cuadrado blanco ("□") en lugar de símbolos ilegibles.
 - Se han corregido bloqueos provocados al intentar descartar una casilla vacía del inventario. Había dos formas de reproducirlos:
   - Disparar un lanzacohetes sin munición infinita y dejar preparada la orden de descartarlo antes de que desapareciera.
   - Recargar un arma y dejar preparada la orden de descartar su munición antes de que desapareciera.
-- El mensaje de la pantalla de título puede alternar libremente entre «Pulsa cualquier tecla» y «Pulsa Start», como ocurría antes de la versión 1.2.0.
+- El mensaje de la pantalla de título puede alternar libremente entre "Pulsa cualquier tecla" y "Pulsa Start", como ocurría antes de la versión 1.2.0.
 - La animación de transición de letras desordenadas entre la selección de dificultad y los ajustes de red ahora espera a que aparezca el aviso de asistencia de acciones cuando se elige la dificultad Aficionado.
 - Se ha corregido el funcionamiento defectuoso del bloqueo regional.
 - Al intentar abrir el perfil de Steam de tu compañero desde una sala de Mercenarios como cliente (jugador 2), ya no se muestra tu propio perfil.
@@ -66,7 +66,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - La pistola enfundada de Jill BSAA ahora aparece y desaparece correctamente al equipar una pistola también en Mercenarios (en parte gracias a Henry).
 - El modelo de baja resolución poligonal del lanzacohetes ya no aparece parcialmente invisible.
 - Se han corregido las zonas de impacto de las estrellas de puntuación destructibles (corrección realizada originalmente por Syndeh).
-- Se ha reducido la resolución mínima de 800×600 a 640×360. **ADVERTENCIA:** Algunas escenas pueden provocar un cierre inesperado en determinados momentos con el mensaje «Unsupported function». La resolución panorámica (16:9) más baja que debería evitar estos fallos es 1024×576. El juego sigue siendo completamente jugable si se omiten esas escenas antes de llegar a los planos problemáticos. Los casos conocidos son «Medicine» y «A Message from Jill», además de la escena equivalente a esta última en Desperate Escape.
+- Se ha reducido la resolución mínima de 800×600 a 640×360. **ADVERTENCIA:** Algunas escenas pueden provocar un cierre inesperado en determinados momentos con el mensaje "Unsupported function". La resolución panorámica (16:9) más baja que debería evitar estos fallos es 1024×576. El juego sigue siendo completamente jugable si se omiten esas escenas antes de llegar a los planos problemáticos. Los casos conocidos son "Medicine" y "A Message from Jill", además de la escena equivalente a esta última en Desperate Escape.
 
 ## Correcciones del modo de pantalla dividida
 
@@ -75,9 +75,9 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - La configuración de prioridad de objetos y el método de control ahora se respetan correctamente al entregar objetos desde la pantalla de gestión de objetos.
 - La intensidad de vibración del mando funciona correctamente con cualquier combinación de métodos de control en pantalla dividida.
 - Los indicadores en pantalla ya no aparecen más pequeños en chino al jugar en pantalla dividida.
-- El nombre del jugador 2 siempre aparece como «Guest» en las salas de Mercenarios, en lugar de quedar en blanco con determinadas combinaciones de métodos de control.
+- El nombre del jugador 2 siempre aparece como "Guest" en las salas de Mercenarios, en lugar de quedar en blanco con determinadas combinaciones de métodos de control.
 - El jugador 2 vuelve a incorporarse correctamente como Chris Heavy Metal en Mercenarios Reunión, en lugar de Excella.
-- Se ha añadido una solución provisional para el bloqueo en la pantalla «Save successful.». Ahora debería ser posible continuar hasta el menú principal utilizando el teclado.
+- Se ha añadido una solución provisional para el bloqueo en la pantalla "Save successful.". Ahora debería ser posible continuar hasta el menú principal utilizando el teclado.
 - El desenfoque de movimiento funciona en pantalla dividida (y en otros modos de cámara sin utilizar) si se activa en los ajustes del sistema, lo que convierte a esta en la única versión del juego compatible con esta función.
 - El archivo del tutorial de controles del capítulo 1-1 ahora se muestra correctamente para cada jugador cuando se combinan distintos métodos de control.
 
@@ -104,9 +104,9 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - La tecla para alternar entre récord/rango máximo y enemigos eliminados/combo máximo en la selección de escenario vuelve a ser Mayús izquierda en lugar de Z, como en la opción equivalente de las clasificaciones del juego original y en nuestro parche anterior.
 - Se ha añadido o corregido la compatibilidad con el ratón en numerosos menús.
 - Se ha habilitado el movimiento de cámara con el ratón en las introducciones y secuencias finales de Versus y Mercenarios al utilizar controles con desplazamiento lateral.
-- Se ha restaurado y ampliado la compatibilidad con la distribución numérica del inventario en varios modos de juego. Para utilizarla, hay que seleccionar manualmente la prioridad «Numérica» en los ajustes de teclado y ratón. Por motivos de compatibilidad, se desactiva al jugar con usuarios que no tengan el parche fuera de los modos Survivors y Team Survivors.
+- Se ha restaurado y ampliado la compatibilidad con la distribución numérica del inventario en varios modos de juego. Para utilizarla, hay que seleccionar manualmente la prioridad "Numérica" en los ajustes de teclado y ratón. Por motivos de compatibilidad, se desactiva al jugar con usuarios que no tengan el parche fuera de los modos Survivors y Team Survivors.
 - Los controles de navegación por los menús ya no dejan de responder parcialmente en una sala en línea de Mercenarios después de completar una partida como cliente (jugador 2).
-- Se han corregido algunos casos en los que la leyenda de controles del menú mostraba las teclas del teclado pese a utilizar un mando («(B)Back» en lugar de «(LS)Select (A)OK (B)Back»).
+- Se han corregido algunos casos en los que la leyenda de controles del menú mostraba las teclas del teclado pese a utilizar un mando ("(B)Back" en lugar de "(LS)Select (A)OK (B)Back").
 - Se han reorganizado las asignaciones de teclas de las salas de Versus para ajustarlas mejor a los menús originales.
 - La tecla Inicio (Home) ahora puede asignarse a una función, ya que no se utiliza para abrir la interfaz de Games for Windows Live.
 - El secreto de la cámara fija de Lost in Nightmares ahora puede jugarse por completo con teclado y ratón.
@@ -118,15 +118,15 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Se han corregido pequeñas erratas en inglés y español.
 - Se ha incorporado la traducción al ruso del contenido descargable realizada por INSERTHERE, junto con mejoras generales de Infernal.
 - Algunos textos del juego ya no están definidos directamente en el código, lo que permite realizar determinadas correcciones específicas de cada idioma:
-  - «Chris Redfield» y «Sheva Alomar» en la selección de atuendos.
-  - «Chris Redfield», «Josh Stone» y «Jill Valentine» en las listas de sesiones y clasificaciones de Lost in Nightmares y Desperate Escape.
+  - "Chris Redfield" y "Sheva Alomar" en la selección de atuendos.
+  - "Chris Redfield", "Josh Stone" y "Jill Valentine" en las listas de sesiones y clasificaciones de Lost in Nightmares y Desperate Escape.
   - Los nombres de los personajes en el inventario.
 - Los sistemas de clasificación en ruso ya no utilizan el alfabeto cirílico, como habían solicitado varios miembros de la comunidad.
 - Se ha recuperado la textura separadora de la selección de capítulos que faltaba en los idiomas eslavos.
 - Se han restaurado los textos eslavos del menú de selección de personajes en los modos originales de Mercenarios y Versus.
 - El tutorial del capítulo 2-1 ya no muestra nombres de personajes en ruso superpuestos a los ingleses.
-- En español, a la pantalla «Tu compañero ha muerto» ya no le falta la letra que indica el género.
-- Se ha recuperado el icono de la tecla «X» para abrir el inventario del compañero en español.
+- En español, a la pantalla "Tu compañero ha muerto" ya no le falta la letra que indica el género.
+- Se ha recuperado el icono de la tecla "X" para abrir el inventario del compañero en español.
 - Algunos nombres de la interfaz en ruso ya no aparecen en inglés (texturas proporcionadas por Syndeh).
 
 ## Correcciones para partidas con mods
@@ -176,7 +176,7 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
   - Al entregarle objetos.
   - Al recargar (10 % de probabilidad).
 - `ExtraGestureCommands` — **ON:** permite que los jugadores utilicen la orden para pedir al compañero que recoja munición, antes exclusiva de los personajes controlados por la CPU.
-- `ExtraAICommands` — **ON:** habilita las órdenes «Gracias» y «Alto» al jugar con un compañero controlado por la CPU.
+- `ExtraAICommands` — **ON:** habilita las órdenes "Gracias" y "Alto" al jugar con un compañero controlado por la CPU.
 - `HideReticles` — **ON:** oculta por completo las retículas de apuntado y las miras láser.
 - `LaserDotType` — **ON:** hace visible el punto del láser en todas las superficies sólidas, como en RE6.
 - `AimDisablesMelee` — **ON:** oculta los indicadores de ataques cuerpo a cuerpo mientras apuntas. Solo se aplica a los tipos de control A y C del mando.
@@ -188,13 +188,13 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
 - `InvertBumperTrigger` — **ON:** intercambia LB/LT y RB/RT en determinadas situaciones, tomando como referencia principalmente la versión de PS3. En esta versión, los QTE no cambian y los tipos de control A y C no muestran correctamente el botón para localizar al compañero cuando este está esperando o agonizando fuera de la pantalla.
 - `DisableInputNotification` — **ON:** deja de mostrar un mensaje cada vez que se cambia entre mando y teclado y ratón (implementado originalmente por maluc).
 - `DisableHUDNames` — **1:** oculta únicamente los nombres de los personajes, pero conserva la textura de fondo que facilita su lectura. **2:** elimina por completo los nombres, como en The Mercenaries 3D (útil si cambias de mods de personajes constantemente).
-- `DisableGameVerText` — **ON:** elimina el texto de versión de la pantalla de título (originalmente «1.2.0» y ahora «QOL YY/MM/DD»).
+- `DisableGameVerText` — **ON:** elimina el texto de versión de la pantalla de título (originalmente "1.2.0" y ahora "QOL YY/MM/DD").
 - `InventoryNameType` — **0:** coloca el nombre ligeramente desplazado hacia la izquierda, como en la mayoría de las versiones de consola. **1:** centra tu nombre, ya que no es necesario reservar espacio para el botón del inventario del compañero. **2:** oculta por completo los nombres del inventario (útil si cambias de mods de personajes constantemente).
 - `InventoryNumberFontSize` — **ON:** aumenta el tamaño de los números del inventario para facilitar su lectura en pantallas pequeñas, especialmente en pantalla dividida (basado directamente en la versión de Nintendo Switch).
-- `TitleLogoOverride` — **1:** fuerza el título «Biohazard 5». **2:** fuerza el título «Resident Evil 5».
-- `GoldLogoOverride` — **1:** fuerza el logotipo «Alternative Edition». **2:** fuerza el logotipo «Gold Edition». **3:** lo desactiva por completo.
-- `SkipTitleVoiceDelay` — **ON:** al seleccionar «Start Game», el juego comienza inmediatamente a crear o cargar la partida guardada mientras el narrador sigue hablando. Es **similar** al comportamiento de la versión de Nintendo Switch.
-- `CustomFrameRate` — Debe establecerse un valor entre 10 y 10000. Sustituye el ajuste del límite de 120 FPS (originalmente llamado «Unlocked» o «Variable», según el idioma).
+- `TitleLogoOverride` — **1:** fuerza el título "Biohazard 5". **2:** fuerza el título "Resident Evil 5".
+- `GoldLogoOverride` — **1:** fuerza el logotipo "Alternative Edition". **2:** fuerza el logotipo "Gold Edition". **3:** lo desactiva por completo.
+- `SkipTitleVoiceDelay` — **ON:** al seleccionar "Start Game", el juego comienza inmediatamente a crear o cargar la partida guardada mientras el narrador sigue hablando. Es **similar** al comportamiento de la versión de Nintendo Switch.
+- `CustomFrameRate` — Debe establecerse un valor entre 10 y 10000. Sustituye el ajuste del límite de 120 FPS (originalmente llamado "Unlocked" o "Variable", según el idioma).
 - `ControllerIcons` — **0:** Xbox 360. **1:** PS4. Es posible que esta función se rediseñe en el futuro y se añada compatibilidad con los iconos de PS3 y Nintendo Switch.
 - `UnitedTitleScreen` — **ON:** cambio **SOLO VISUAL** que sustituye la pantalla de título de Mercenarios Reunión por la de Mercenarios Unidos, utilizada en las reediciones posteriores para consolas.
 - `RemoveLetterboxing` — **ON:** fuerza el modo de cámara estándar cuando el juego intenta cambiar al cinematográfico, que añade franjas negras arriba y abajo de la pantalla. Ten en cuenta que, si juegas en 16:9 (panorámico), el campo de visión será más estrecho, ya que las versiones originales utilizaban una relación de aspecto similar a la ultrapanorámica para esas escenas.
