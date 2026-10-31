@@ -18,9 +18,9 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 
 - Enemy pathfinding restored. This does **not** have to do with collision issues caused by high framerates.
 - Added new inventory management options from the Nintendo Switch version:
-  - **Give all** and **Request all** will ignore the item's assigned maximum quantity that can be handed over at a time (for example, 30 handgun rounds, 1 egg). The latter is only available while playing with a CPU controlled partner, as it is up to a real player how much they want to give you. If you press the Give button while the inventory is closed, behavior will default to the last picked option, which resets on level load and defaults to the original "Give".
-  - **Exchange** is now permanently available in your partner's inventory, even if you're not full.
-  - **Combine** option now only appears if the item can be combined with something in the first place.
+  - Give all and Request all will ignore the item's assigned maximum quantity that can be handed over at a time (for example, 30 handgun rounds, 1 egg). The latter is only available while playing with a CPU controlled partner, as it is up to a real player how much they want to give you. If you press the Give button while the inventory is closed, behavior will default to the last picked option, which resets on level load and defaults to the original "Give".
+  - Exchange is now permanently available in your partner's inventory, even if you're not full.
+  - Combine option now only appears if the item can be combined with something in the first place.
 - Inventory icons removed in update 1.2.0 restored:
   - Equipped item highlight.
   - 'E' letter for "Equipped" item indicator.
@@ -30,7 +30,7 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 - Fixed session list softlock caused by attempting to join a lobby and getting an error message.
 - Spamming character switching in Mercenaries and Versus lobbies by holding down both triggers is no longer possible, which now matches the original console patch behavior and should help prevent excessive online updates and potential desync in lobbies.
 - New 1.2.0 Mercenaries and Versus "The other player is not ready" displays "Back" button and text regardless of host or client. This visual bug no longer displays if you are not the host.
-- Incorrect in-game inventory name position fixed. See InventoryNameType under Optional Modifications for more information.
+- Incorrect in-game inventory name position fixed. See `InventoryNameType` under Optional Modifications for more information.
 - No Mercy added to Mercenaries Reunion based on Mercenaries United including its scoring system. Saving high scores is not possible in this version and it is unknown whether this will change in the future.
 - No Mercy character selection screen now correctly displays No Mercy ranks, instead of solo ranks.
 - Joining a Duo Mercenaries lobby through invites while in the No Mercy menus will no longer cause No Mercy to remain active, which would cause a desync.
@@ -89,16 +89,16 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 *A set of tweaks and additional settings to further customize the Mouse & Keyboard controls*
 
 - Added new Keyboard/Mouse Settings.
-  - Movement Type:
-    - Type A = Turn character with mouse, strafe with A & D keys.
-    - Type B = Turn character with A & D keys (tank controls). Camera controls subject to change.
-  - Aiming Type:
-    - Default = Aim with the camera, character follows with a delay.
-    - Classic = Aim by controlling the character's arms directly. Camera follows with a delay, with deadzone in the middle (forces laser sight).
-    - Cursor aiming = Reticle moves freely across the screen, visible at all times (forces tank controls and crosshair).
-  - Aiming Reticle:
-    - Default = Crosshairs.
-    - Classic = Laser sight (includes laser angle fix).
+  - **Movement Type:**
+    - **Type A:** Turn character with mouse, strafe with A & D keys.
+    - **Type B:** Turn character with A & D keys (tank controls). Camera controls subject to change.
+  - **Aiming Type:**
+    - **Default:** Aim with the camera, character follows with a delay.
+    - **Classic:** Aim by controlling the character's arms directly. Camera follows with a delay, with deadzone in the middle (forces laser sight).
+    - **Cursor aiming:** Reticle moves freely across the screen, visible at all times (forces tank controls and crosshair).
+  - **Aiming Reticle:**
+    - **Default:** Crosshairs.
+    - **Classic:** Laser sight (includes laser angle fix).
   - Separate camera and aiming mouse sensitivity values.
   - Alternate QTE binding preset (Aim + Fire).
 - Menus can now be navigated using WASD keys.
