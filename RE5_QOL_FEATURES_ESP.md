@@ -28,7 +28,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Los giros rápidos al apuntar ahora se muestran correctamente en partidas en línea con tasas distintas de 30 FPS.
 - Se ha corregido un bloqueo en la lista de sesiones que se producía al intentar entrar en una sala y recibir un mensaje de error.
 - Ya no es posible cambiar repetidamente de personaje en las salas de Mercenarios y Versus manteniendo pulsados ambos gatillos. Esto reproduce el comportamiento del parche original de consolas y debería evitar actualizaciones excesivas en línea y posibles problemas de sincronización en las salas.
-- En la versión 1.2.0, el mensaje "El otro jugador no está preparado" de las salas de Mercenarios y Versus mostraba el botón y el texto "Atrás" tanto al anfitrión como al invitado. Se ha corregido este error visual para que no aparezcan cuando no eres el anfitrión.
+- En la versión 1.2.0, el mensaje "Los otros jugadores no están preparados" de las salas de Los Mercenarios y Versus mostraba un botón y el texto "Volver" tanto al anfitrión como al cliente. Se ha corregido este error visual para que dichos elementos solo aparezcan cuando eres el anfitrión.
 - Se ha corregido la posición del nombre del personaje en el inventario durante la partida. Consulta `InventoryNameType` en Modificaciones opcionales para obtener más información.
 - Se ha añadido **Sin piedad** a Mercenarios Reunión, tomando como referencia Mercenarios Unidos, incluido su sistema de puntuación. En esta versión no es posible guardar récords y se desconoce si esto cambiará en el futuro.
 - La pantalla de selección de personajes de Sin piedad ahora muestra correctamente los rangos de ese modo, en lugar de los del modo individual.
