@@ -17,9 +17,9 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 
 - Se ha restaurado la búsqueda de rutas de los enemigos. Esto **no** está relacionado con los problemas de colisión provocados por las tasas de fotogramas elevadas.
 - Se han incorporado opciones de gestión del inventario de la versión de Nintendo Switch, aplicables a los objetos del juego (armas, munición, granadas, hierbas curativas, etc.):
-  - **Dar todo** y **Pedir todo** permiten transferir objetos sin respetar la cantidad máxima establecida para cada entrega (por ejemplo, 30 balas de pistola o 1 huevo). La segunda opción solo está disponible con un compañero controlado por la CPU, ya que corresponde al otro jugador decidir cuánto quiere darte. Si pulsas el botón de dar con el inventario cerrado, se utilizará la última opción seleccionada. Esta preferencia se restablece al cargar un nivel y vuelve a la opción original "Dar".
-  - La opción **Intercambiar** permanece disponible en el inventario del compañero, incluso cuando el tuyo no está lleno.
-  - La opción **Combinar** solo aparece cuando el objeto puede combinarse con otro.
+  - Dar todo y Pedir todo permiten transferir objetos sin respetar la cantidad máxima establecida para cada entrega (por ejemplo, 30 balas de pistola o 1 huevo). La segunda opción solo está disponible con un compañero controlado por la CPU, ya que corresponde al otro jugador decidir cuánto quiere darte. Si pulsas el botón de dar con el inventario cerrado, se utilizará la última opción seleccionada. Esta preferencia se restablece al cargar un nivel y vuelve a la opción original "Dar".
+  - La opción Intercambiar permanece disponible en el inventario del compañero, incluso cuando el tuyo no está lleno.
+  - La opción Combinar solo aparece cuando el objeto puede combinarse con otro.
 - Se han restaurado los iconos del inventario eliminados en la actualización 1.2.0:
   - El resaltado del objeto equipado.
   - La letra "E" que indica que un objeto está equipado.
@@ -30,7 +30,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Ya no es posible cambiar repetidamente de personaje en las salas de Mercenarios y Versus manteniendo pulsados ambos gatillos. Esto reproduce el comportamiento del parche original de consolas y debería evitar actualizaciones excesivas en línea y posibles problemas de sincronización en las salas.
 - En la versión 1.2.0, el mensaje "Los otros jugadores no están preparados" de las salas de Los Mercenarios y Versus mostraba un botón y el texto "Volver" tanto al anfitrión como al cliente. Se ha corregido este error visual para que dichos elementos solo aparezcan cuando eres el anfitrión.
 - Se ha corregido la posición del nombre del personaje en el inventario durante la partida. Consulta `InventoryNameType` en Modificaciones opcionales para obtener más información.
-- Se ha añadido **Sin piedad** a Mercenarios Reunión, tomando como referencia Mercenarios Unidos, incluido su sistema de puntuación. En esta versión no es posible guardar récords y se desconoce si esto cambiará en el futuro.
+- Se ha añadido Sin piedad a Mercenarios Reunión, tomando como referencia Mercenarios Unidos, incluido su sistema de puntuación. En esta versión no es posible guardar récords y se desconoce si esto cambiará en el futuro.
 - La pantalla de selección de personajes de Sin piedad ahora muestra correctamente los rangos de ese modo, en lugar de los del modo individual.
 - Entrar mediante una invitación a una sala de Mercenarios en dúo desde los menús de Sin piedad ya no provoca que ese modo permanezca activado para uno de los jugadores, lo que ocasionaba problemas de sincronización.
 - Se ha corregido la posición de un indicador del mando en la pantalla de resultados de Versus (error introducido en la actualización 1.2.0).
@@ -90,12 +90,12 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
     - **Tipo A:** gira al personaje con el ratón y desplázate lateralmente con las teclas A y D.
     - **Tipo B:** gira al personaje con las teclas A y D (controles tipo tanque). Los controles de cámara podrían cambiar en el futuro.
   - **Tipo de apuntado:**
-    - **Predeterminado:** apuntas con la cámara y el personaje la sigue con cierto retraso.
+    - **Por defecto:** apuntas con la cámara y el personaje la sigue con cierto retraso.
     - **Clásico:** apuntas controlando directamente los brazos del personaje. La cámara los sigue con cierto retraso y dispone de una zona muerta en el centro (obliga a utilizar la mira láser).
-    - **Apuntado con cursor:** la retícula se mueve libremente por la pantalla y permanece visible en todo momento (obliga a utilizar controles tipo tanque y la retícula de apuntado).
-  - **Retícula de apuntado:**
-    - **Predeterminada:** retícula de apuntado.
-    - **Clásica:** mira láser (incluye la corrección del ángulo del láser).
+    - **Cursor:** la retícula se mueve libremente por la pantalla y permanece visible en todo momento (obliga a utilizar controles tipo tanque y la retícula de apuntado).
+  - **Tipo de mira:**
+    - **Por defecto:** retícula de apuntado.
+    - **Clásico:** mira láser (incluye la corrección del ángulo del láser).
   - Valores de sensibilidad del ratón independientes para la cámara y el apuntado.
   - Configuración alternativa de teclas para eventos de acción rápida (QTE): apuntar + disparar.
 - Ahora es posible navegar por los menús con las teclas WASD.
