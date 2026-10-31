@@ -16,7 +16,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 *Correcciones que mejoran la experiencia del juego original.*
 
 - Se ha restaurado la búsqueda de rutas de los enemigos. Esto **no** está relacionado con los problemas de colisión provocados por las tasas de fotogramas elevadas.
-- Se han incorporado opciones de gestión del inventario de la versión de Nintendo Switch:
+- Se han incorporado opciones de gestión del inventario de la versión de Nintendo Switch, aplicables a los objetos del juego (armas, munición, granadas, hierbas curativas, etc.):
   - **Dar todo** y **Pedir todo** permiten transferir objetos sin respetar la cantidad máxima establecida para cada entrega (por ejemplo, 30 balas de pistola o 1 huevo). La segunda opción solo está disponible con un compañero controlado por la CPU, ya que corresponde al otro jugador decidir cuánto quiere darte. Si pulsas el botón de dar con el inventario cerrado, se utilizará la última opción seleccionada. Esta preferencia se restablece al cargar un nivel y vuelve a la opción original «Dar».
   - La opción **Intercambiar** permanece disponible en el inventario del compañero, incluso cuando el tuyo no está lleno.
   - La opción **Combinar** solo aparece cuando el objeto puede combinarse con otro.
@@ -28,12 +28,11 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Los giros rápidos al apuntar ahora se muestran correctamente en partidas en línea con tasas distintas de 30 FPS.
 - Se ha corregido un bloqueo en la lista de sesiones que se producía al intentar entrar en una sala y recibir un mensaje de error.
 - Ya no es posible cambiar repetidamente de personaje en las salas de Mercenarios y Versus manteniendo pulsados ambos gatillos. Esto reproduce el comportamiento del parche original de consolas y debería evitar actualizaciones excesivas en línea y posibles problemas de sincronización en las salas.
-- El nuevo aviso «Atrás» de la versión 1.2.0 en las salas de Mercenarios y Versus ya no aparece para quienes no son anfitriones cuando se intenta iniciar una partida sin que todos estén preparados o con equipos no válidos. Ahora también se muestra el mensaje correspondiente cuando los equipos no son válidos.
+- En la versión 1.2.0, el mensaje «El otro jugador no está preparado» de las salas de Mercenarios y Versus mostraba el botón y el texto «Atrás» tanto al anfitrión como al invitado. Se ha corregido este error visual para que no aparezcan cuando no eres el anfitrión.
 - Se ha corregido la posición del nombre del personaje en el inventario durante la partida. Consulta `InventoryNameType` en Modificaciones opcionales para obtener más información.
 - Se ha añadido **Sin piedad** a Mercenarios Reunión, tomando como referencia Mercenarios Unidos, incluido su sistema de puntuación. En esta versión no es posible guardar récords y se desconoce si esto cambiará en el futuro.
 - La pantalla de selección de personajes de Sin piedad ahora muestra correctamente los rangos de ese modo, en lugar de los del modo individual.
 - Entrar mediante una invitación a una sala de Mercenarios en dúo desde los menús de Sin piedad ya no provoca que ese modo permanezca activado para uno de los jugadores, lo que ocasionaba problemas de sincronización.
-- Se ha añadido un contador de bajas en tiempo real en Mercenarios, similar al de RE6, REV2 y las versiones posteriores de REV1. Puede desactivarse desde Modificaciones opcionales.
 - Se ha corregido la posición de un indicador del mando en la pantalla de resultados de Versus (error introducido en la actualización 1.2.0).
 - Se ha renovado el menú de opciones:
   - Se han corregido las animaciones de transición entre menús.
@@ -152,7 +151,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - La animación de caminar tranquilamente del capítulo 1-1 ahora funciona con cualquier personaje y atuendo.
 - Cambiar de personaje en la campaña principal ya no interrumpe el funcionamiento de la munición infinita.
 - Se han corregido las animaciones de daño que faltaban al recibir ataques de los Blobs/Guardianes de la locura y de Wesker en Lost in Nightmares. La corrección puede desactivarse desde Modificaciones opcionales.
-- El cuchillo del DLC y la Samurai Edge de Barry ahora otorgan puntos por el daño infligido a otros jugadores en Survivors.
+- El cuchillo del DLC y la Samurai Edge de Barry ahora otorgan puntos por el daño infligido a otros jugadores en Survivors y Team Survivors.
 - La interfaz y los elementos del escenario se muestran cuando se fuerza a la cámara a seguir a un personaje controlado por la CPU.
 - Los disparos de la Samurai Edge de Barry ya no se contabilizan automáticamente como fallidos.
 - Se han corregido los ataques cuerpo a cuerpo Headbutt de Barry y Humiliate de Excella fuera de Mercenarios Reunión. Además, First Aid ya no provoca el cierre del juego.
