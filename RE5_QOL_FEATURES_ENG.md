@@ -18,9 +18,9 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 
 - Enemy pathfinding restored. This does **not** have to do with collision issues caused by high framerates.
 - Added new inventory management options from the Nintendo Switch version:
-  - Give all and Request all will ignore the item's assigned maximum quantity that can be handed over at a time (for example, 30 handgun rounds, 1 egg). The latter is only available while playing with a CPU controlled partner, as it is up to a real player how much they want to give you. If you press the Give button while the inventory is closed, behavior will default to the last picked option, which resets on level load and defaults to the original "Give".
-  - Exchange is now permanently available in your partner's inventory, even if you're not full.
-  - Combine option now only appears if the item can be combined with something in the first place.
+  - **Give all** and **Request all** will ignore the item's assigned maximum quantity that can be handed over at a time (for example, 30 handgun rounds, 1 egg). The latter is only available while playing with a CPU controlled partner, as it is up to a real player how much they want to give you. If you press the Give button while the inventory is closed, behavior will default to the last picked option, which resets on level load and defaults to the original "Give".
+  - **Exchange** is now permanently available in your partner's inventory, even if you're not full.
+  - **Combine** option now only appears if the item can be combined with something in the first place.
 - Inventory icons removed in update 1.2.0 restored:
   - Equipped item highlight.
   - 'E' letter for "Equipped" item indicator.
