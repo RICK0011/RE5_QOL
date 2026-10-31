@@ -24,7 +24,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
   - El resaltado del objeto equipado.
   - La letra "E" que indica que un objeto está equipado.
   - El indicador de munición infinita.
-- Se han añadido nuevos ajustes de calidad de sombras. Las opciones anteriores LOW, MEDIUM y HIGH pasan a ser OFF, LOWEST y LOW, respectivamente. Las resoluciones de los mapas de sombras, en orden, son: desactivadas, 512, 1024, 2048, 3072 y 4096.
+- Se han añadido nuevos ajustes de calidad de sombras. Las opciones anteriores BAJO, MEDIO y ALTO pasan a ser NO, MUY BAJO y BAJO, respectivamente. Las resoluciones de los mapas de sombras, en orden, son: desactivadas(NO), 512(MUY BAJO), 1024(BAJO), 2048(MEDIO), 3072(ALTO) y 4096(MUY ALTO).
 - Los giros rápidos al apuntar ahora se muestran correctamente en partidas en línea con tasas distintas de 30 FPS.
 - Se ha corregido un bloqueo en la lista de sesiones que se producía al intentar entrar en una sala y recibir un mensaje de error.
 - Ya no es posible cambiar repetidamente de personaje en las salas de Mercenarios y Versus manteniendo pulsados ambos gatillos. Esto reproduce el comportamiento del parche original de consolas y debería evitar actualizaciones excesivas en línea y posibles problemas de sincronización en las salas.
