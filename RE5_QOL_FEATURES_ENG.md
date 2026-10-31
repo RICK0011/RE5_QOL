@@ -29,19 +29,18 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 - Aim quickturns now display correctly online at framerates other than 30fps.
 - Fixed session list softlock caused by attempting to join a lobby and getting an error message.
 - Spamming character switching in Mercenaries and Versus lobbies by holding down both triggers is no longer possible, which now matches the original console patch behavior and should help prevent excessive online updates and potential desync in lobbies.
-- New 1.2.0 Mercenaries and Versus Lobby "Back" prompt when attempting to start a match while other players aren't ready, or the teams are invalid (which will now also display the message), is no longer displayed if you're not the host.
+- New 1.2.0 Mercenaries and Versus "The other player is not ready" displays "Back" button and text regardless of host or client. This visual bug no longer displays if you are not the host.
 - Incorrect in-game inventory name position fixed. See InventoryNameType under Optional Modifications for more information.
-- No Mercy added to Mercenaries Reunion, based on Mercenaries United including its scoring system. Saving high scores is not possible in this version and it is unknown whether this will change in the future.
-- No Mercy character selection screen now correctly displays No Mercy ranks, instead of solo ones.
-- Joining a Duo Mercenaries lobby through invites while in the No Mercy menus will no longer cause No Mercy to remain active for one player, which would cause desync.
-- Added a real-time kill counter in Mercenaries, similar to RE6, REV2, and later releases of REV1. Refer to Optional Modifications section to disable it.
+- No Mercy added to Mercenaries Reunion based on Mercenaries United including its scoring system. Saving high scores is not possible in this version and it is unknown whether this will change in the future.
+- No Mercy character selection screen now correctly displays No Mercy ranks, instead of solo ranks.
+- Joining a Duo Mercenaries lobby through invites while in the No Mercy menus will no longer cause No Mercy to remain active, which would cause a desync.
 - Misplaced controller prompt position in Versus result screen fixed (bug introduced in 1.2.0 update).
 - Reworked Options menu:
   - Fixed menu transition animations.
   - Fixed vertical coordinates to match transition animations.
   - Replaced "Default" option with "Reset to default" shortcut.
 - "Overall quality" setting partially fixed. Some parameters like LOD are now properly set based on Games for Windows Live version, but a lot of code is still missing.
-- Fixed missing DLC voicelines for Chris, Sheva and Jill. While this mainly affects modded gameplay, you'll now for instance hear Chris or Sheva shout "Josh!" when he dies in the main campaign. Refer to Optional Modifications section to disable it.
+- Fixed missing DLC voicelines for Chris, Sheva and Jill. While this mainly affects modded gameplay, you will now for instance hear Chris or Sheva shout "Josh!" when he dies in the main campaign. Refer to Optional Modifications section to disable it.
 - Jill (and any other right handed female character) now has a more appropriate reload animation for the S&W M29. Refer to Optional Modifications section to disable it.
 - Expanded special character support for Steam usernames. Unsupported characters should now display a white square ('□') instead of garbled text.
 - Fixed softlocks caused by attempting to discard an empty item slot. Two ways of triggering it were:
@@ -156,7 +155,7 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 - Casual walk animation in chapter 1-1 now works regardless of character and outfit chosen.
 - Changing characters in the main campaign no longer breaks infinite ammo functionality.
 - Fixed missing damage animations against Blobs/Guardians of Insanity and Wesker in Lost in Nightmares. Refer to optional tweaks section to disable it.
-- The DLC knife and Barry's Samurai Edge will now grant the player points for damage dealt to players in Survivors/Team Survivors.
+- The DLC knife and Barry's Samurai Edge will now grant the player points for damage dealt to players in Survivors and Team Survivors.
 - UI and stage props will now display when the camera is forced to follow a CPU controlled character.
 - Shots fired by Barry's Samurai Edge no longer automatically count as missed shots.
 - Fixed Barry's Headbutt and Excella's Humiliate melee attacks outside of Mercenaries Reunion, and First Aid no longer crashes the game.
