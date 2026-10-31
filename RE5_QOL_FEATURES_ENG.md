@@ -25,7 +25,7 @@ Complete list of fixes, restorations, improvements, and optional modifications.
   - Equipped item highlight.
   - 'E' letter for "Equipped" item indicator.
   - Infinite ammo indicator.
-- Added new Shadow Quality settings. LOW, MEDIUM and HIGH have now become OFF, LOWEST and LOW respectively. In order, the shadow map resolutions are: Disabled, 512, 1024, 2048, 3072, 4096.
+- Added new Shadow Quality settings. LOW, MEDIUM and HIGH have now become OFF, LOWEST and LOW respectively. In order, the shadow map resolutions are: Disabled(OFF), 512(LOWEST), 1024(LOW), 2048(MEDIUM), 3072(HIGH), 4096(HIGHEST).
 - Aim quickturns now display correctly online at framerates other than 30fps.
 - Fixed session list softlock caused by attempting to join a lobby and getting an error message.
 - Spamming character switching in Mercenaries and Versus lobbies by holding down both triggers is no longer possible, which now matches the original console patch behavior and should help prevent excessive online updates and potential desync in lobbies.
