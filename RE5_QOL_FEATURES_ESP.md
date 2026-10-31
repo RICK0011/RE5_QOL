@@ -51,22 +51,22 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Al intentar abrir el perfil de Steam de tu compañero desde una sala de Mercenarios como cliente (jugador 2), ya no se muestra tu propio perfil.
 - Se ha eliminado la opción LAN, ya que dependía del código de Games for Windows Live y no funciona en Steam. Se recuperará si llega a corregirse.
 - Se ha eliminado el concepto de tipo de partida de Versus, que era principalmente un vestigio de las versiones de Xbox y Games for Windows Live.
-- Se han corregido varios problemas en los menús de Lost in Nightmares y Desperate Escape.
+- Se han corregido varios problemas en los menús de Perdido En Un Mar De Pesadillas y Evasión De La Desesperada.
 - Se ha corregido la escala (tamaño) de los personajes Josh, Barry y Rebecca (corrección realizada originalmente por maluc).
 - Se han eliminado los contornos negros alrededor de objetos y personajes que aparecían al activar simultáneamente las sombras y el suavizado de bordes (antialiasing).
 - Se ha adaptado una versión corregida de la pantalla de título ampliada verticalmente de Games for Windows Live (visible en relaciones de aspecto más estrechas, como 4:3) y se han restaurado las animaciones de células sanguíneas ausentes en todas las reediciones posteriores.
-- El fondo negro semitransparente que aparece al leer documentos ahora se adapta correctamente a relaciones de aspecto más estrechas en Lost in Nightmares.
+- El fondo negro semitransparente que aparece al leer documentos ahora se adapta correctamente a relaciones de aspecto más estrechas en Perdido En Un Mar De Pesadillas.
 - Se ha corregido el funcionamiento del gestor de perfiles de jugador, lo que soluciona problemas como la imposibilidad de intercambiar armas con un compañero controlado por la CPU.
 - Los avisos que aparecen al disponer por primera vez de contenido descargable ahora tienen en cuenta si ya se cumplen sus requisitos de desbloqueo. También se ha añadido el aviso que faltaba de Figuras adicionales.
 - Todos los personajes controlados por la CPU ahora pueden ejecutar la mayoría de los ataques cuerpo a cuerpo. Aunque esto afecta principalmente a partidas con mods, antes Chris, por ejemplo, se negaba a ejecutar el golpe de seguimiento Haymaker contra enemigos como el Majini de ametralladora Gatling y el Majini gigante.
 - El estilo del aviso Sí/No de la política de privacidad ahora coincide con el de los demás avisos del juego.
 - La pistola M93R ya no da la impresión de atravesar enemigos cuando en realidad no lo hace (el efecto se apreciaba originalmente en paredes y suelos).
 - El Reaper ya no se pasa exageradamente de altura en algunos de sus saltos verticales.
-- Los indicadores de botones de pantalla dividida ya no aparecen en la pantalla de gestión de objetos después de intentar iniciar una partida de Lost in Nightmares o Desperate Escape en pantalla dividida y regresar al menú principal.
+- Los indicadores de botones de pantalla dividida ya no aparecen en la pantalla de gestión de objetos después de intentar iniciar una partida de Perdido En Un Mar De Pesadillas o Evasión De La Desesperada en pantalla dividida y regresar al menú principal.
 - La pistola enfundada de Jill BSAA ahora aparece y desaparece correctamente al equipar una pistola también en Mercenarios (en parte gracias a Henry).
 - El modelo de baja resolución poligonal del lanzacohetes ya no aparece parcialmente invisible.
 - Se han corregido las zonas de impacto de las estrellas de puntuación destructibles (corrección realizada originalmente por Syndeh).
-- Se ha reducido la resolución mínima de 800×600 a 640×360. **ADVERTENCIA:** Algunas escenas pueden provocar un cierre inesperado en determinados momentos con el mensaje "Unsupported function". La resolución panorámica (16:9) más baja que debería evitar estos fallos es 1024×576. El juego sigue siendo completamente jugable si se omiten esas escenas antes de llegar a los planos problemáticos. Los casos conocidos son "Medicine" y "A Message from Jill", además de la escena equivalente a esta última en Desperate Escape.
+- Se ha reducido la resolución mínima de 800×600 a 640×360. **ADVERTENCIA:** Algunas escenas pueden provocar un cierre inesperado en determinados momentos con el mensaje "Unsupported function". La resolución panorámica (16:9) más baja que debería evitar estos fallos es 1024×576. El juego sigue siendo completamente jugable si se omiten esas escenas antes de llegar a los planos problemáticos. Los casos conocidos son "Medicine" y "A Message from Jill", además de la escena equivalente a esta última en Evasión De La Desesperada.
 
 ## Correcciones del modo de pantalla dividida
 
@@ -109,7 +109,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Se han corregido algunos casos en los que la leyenda de controles del menú mostraba las teclas del teclado pese a utilizar un mando ("(B)Back" en lugar de "(LS)Select (A)OK (B)Back").
 - Se han reorganizado las asignaciones de teclas de las salas de Versus para ajustarlas mejor a los menús originales.
 - La tecla Inicio (Home) ahora puede asignarse a una función, ya que no se utiliza para abrir la interfaz de Games for Windows Live.
-- El secreto de la cámara fija de Lost in Nightmares ahora puede jugarse por completo con teclado y ratón.
+- El secreto de la cámara fija de Perdido En Un Mar De Pesadillas ahora puede jugarse por completo con teclado y ratón.
 
 ## Correcciones de idiomas
 
@@ -119,7 +119,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Se ha incorporado la traducción al ruso del contenido descargable realizada por INSERTHERE, junto con mejoras generales de Infernal.
 - Algunos textos del juego ya no están definidos directamente en el código, lo que permite realizar determinadas correcciones específicas de cada idioma:
   - "Chris Redfield" y "Sheva Alomar" en la selección de atuendos.
-  - "Chris Redfield", "Josh Stone" y "Jill Valentine" en las listas de sesiones y clasificaciones de Lost in Nightmares y Desperate Escape.
+  - "Chris Redfield", "Josh Stone" y "Jill Valentine" en las listas de sesiones y clasificaciones de Perdido En Un Mar De Pesadillas y Evasión De La Desesperada.
   - Los nombres de los personajes en el inventario.
 - Los sistemas de clasificación en ruso ya no utilizan el alfabeto cirílico, como habían solicitado varios miembros de la comunidad.
 - Se ha recuperado la textura separadora de la selección de capítulos que faltaba en los idiomas eslavos.
@@ -134,7 +134,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 *Correcciones que mejoran la experiencia al utilizar mods.*
 
 - La reducción de potencia de la porra eléctrica de Mercenarios Reunión ahora también se aplica a Mercenarios original y a Versus.
-- Los Blobs/Guardianes de la locura explotan al morir si se incorporan mediante mods a Versus, Desperate Escape o cualquiera de los dos modos de Mercenarios.
+- Los Blobs/Guardianes de la locura explotan al morir si se incorporan mediante mods a Versus, Evasión De La Desesperada o cualquiera de los dos modos de Mercenarios.
 - Se han corregido los tiempos necesarios para romper las bonificaciones de tiempo con personajes para los que no estaban previstas originalmente (por ejemplo, Wesker en Mercenarios Reunión/Unidos).
 - Algunas armas ahora deberían poder utilizarse con cualquier personaje, aunque no siempre sin fallos: arco largo, ametralladora Gatling, farol y lanzallamas.
 - Se ha eliminado parcialmente una restricción que impedía a los personajes controlados por la CPU rematar a jefes y subjefes (solo en Mercenarios y Versus).
@@ -142,15 +142,15 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 - Se han corregido las líneas de voz para solicitar la Samurai Edge de Barry y todos los cuchillos.
 - Se han corregido algunos iconos de objetos en la pantalla de gestión de objetos y se han reorganizado otros, como los de la Px4, las pistolas Samurai Edge y el escarabajo esmeralda sin utilizar.
 - El escarabajo esmeralda ahora se vende por ₦2500 en lugar de 9.
-- Al utilizar determinadas manivelas en Lost in Nightmares, los personajes ahora llaman correctamente a su compañero por su nombre real.
+- Al utilizar determinadas manivelas en Perdido En Un Mar De Pesadillas, los personajes ahora llaman correctamente a su compañero por su nombre real.
 - Algunas animaciones, como las de accionar manivelas y palancas, ahora se orientan correctamente independientemente del género y la mano dominante del personaje.
 - Correcciones de animaciones de armas:
   - Todas las mujeres diestras pueden utilizar la animación de recarga de Rebecca para la Jail Breaker.
   - Los cuchillos (excepto el de Jill) y las pistolas Px4 y Samurai Edge utilizan los conjuntos de animaciones correctos para personajes del género opuesto.
-- Sustituir a Chris por otro personaje en Lost in Nightmares ya no bloquea la secuencia del piano cuando el personaje está controlado por la CPU.
+- Sustituir a Chris por otro personaje en Perdido En Un Mar De Pesadillas ya no bloquea la secuencia del piano cuando el personaje está controlado por la CPU.
 - La animación de caminar tranquilamente del capítulo 1-1 ahora funciona con cualquier personaje y atuendo.
 - Cambiar de personaje en la campaña principal ya no interrumpe el funcionamiento de la munición infinita.
-- Se han corregido las animaciones de daño que faltaban al recibir ataques de los Blobs/Guardianes de la locura y de Wesker en Lost in Nightmares. La corrección puede desactivarse desde Modificaciones opcionales.
+- Se han corregido las animaciones de daño que faltaban al recibir ataques de los Blobs/Guardianes de la locura y de Wesker en Perdido En Un Mar De Pesadillas. La corrección puede desactivarse desde Modificaciones opcionales.
 - El cuchillo del DLC y la Samurai Edge de Barry ahora otorgan puntos por el daño infligido a otros jugadores en Survivors y Team Survivors.
 - La interfaz y los elementos del escenario se muestran cuando se fuerza a la cámara a seguir a un personaje controlado por la CPU.
 - Los disparos de la Samurai Edge de Barry ya no se contabilizan automáticamente como fallidos.
@@ -170,7 +170,7 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
 
 - `DisableInventoryReloads` — **ON:** impide recargar armas combinándolas con munición en el inventario.
 - `SkipDyingState` — **ON:** cuando la barra de salud se vacía por completo, mueres inmediatamente, como en la mayoría de las entregas para un jugador de la saga (no funciona en Versus).
-- `ProDyingBarOverride` — **1:** concede 3 segundos para reanimar o curar al compañero en Lost in Nightmares y Desperate Escape en dificultad Profesional. **2:** concede 8 segundos para reanimar o curar al compañero en la campaña principal en dificultad Profesional.
+- `ProDyingBarOverride` — **1:** concede 3 segundos para reanimar o curar al compañero en Perdido En Un Mar De Pesadillas y Evasión De La Desesperada en dificultad Profesional. **2:** concede 8 segundos para reanimar o curar al compañero en la campaña principal en dificultad Profesional.
 - `ExtraVoiceCommands` — **ON:** permite que los jugadores utilicen determinadas órdenes de voz que antes eran exclusivas de los personajes controlados por la CPU (función implementada originalmente por maluc, aunque de forma ligeramente distinta):
   - Al curar o reanimar al compañero.
   - Al entregarle objetos.
@@ -205,7 +205,7 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
 - `CheapVsCharacters` — **ON:** todos los personajes de Versus cuestan 2000 puntos en el menú de características adicionales. Basado directamente en las reediciones posteriores para consolas.
 - `UnlockMercs` — **ON:** permite acceder a los dos modos de Mercenarios sin necesidad de terminar primero el juego. Basado directamente en las reediciones posteriores para consolas.
 - `UnlockPro` — **ON:** permite acceder a la dificultad Profesional sin tener que completar primero los distintos modos en Veterano ni unirse a una partida de un anfitrión en Profesional para desbloquearla permanentemente en el perfil local.
-- `UnlockStoryCharacters` — **ON:** permite jugar con Sheva, Jill y Josh en la campaña principal, Lost in Nightmares y Desperate Escape, respectivamente, sin tener que completar antes esos modos.
+- `UnlockStoryCharacters` — **ON:** permite jugar con Sheva, Jill y Josh en la campaña principal, Perdido En Un Mar De Pesadillas y Evasión De La Desesperada, respectivamente, sin tener que completar antes esos modos.
 - `RemoveFilter` — **1:** opción menos agresiva. Conserva ciertos efectos, como los que aparecen cuando estás agonizando, pero no funciona en las escenas cinemáticas. **2:** opción más agresiva. Funciona en las escenas cinemáticas, pero también elimina algunos efectos de posprocesado.
 - `RE4MercsScoring` — **ON:** los valores de bonificación por combo coinciden con los del modo Mercenarios del RE4 original. Las bajas cuerpo a cuerpo no añaden 5 segundos y no se conceden puntos adicionales por cada segundo restante al eliminar 150/400 enemigos.
 - `FourPlayerMercs` — **ON:** permite jugar en línea con hasta cuatro jugadores en Mercenarios. Mientras esté activada, las puntuaciones no se guardarán (ni en individual ni en dúo en línea) ni se subirán a las clasificaciones (en ningún caso), independientemente del número de jugadores.
@@ -221,6 +221,6 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
 - `SnWM29Fix` — **ON:** utiliza un conjunto de animaciones personalizado que permite a los personajes femeninos diestros recargar correctamente el revólver S&W M29.
 - `JailBreakerFix` — **ON:** utiliza un conjunto de animaciones personalizado que permite a **todos** los personajes femeninos diestros recargar correctamente la escopeta Jail Breaker.
 - `MissingVoiceLinesFix` — **ON:** utiliza archivos `stq` personalizados para garantizar que los atuendos de Chris, Sheva y Jill que no pertenecen a los DLC tengan acceso a las líneas de voz adicionales de estos contenidos.
-- `DamageAnimationsDLCFix` — **ON:** obliga a todos los personajes a utilizar el conjunto actualizado de animaciones de Lost in Nightmares para que reaccionen correctamente a los nuevos ataques de Wesker y al ácido de los Blobs.
+- `DamageAnimationsDLCFix` — **ON:** obliga a todos los personajes a utilizar el conjunto actualizado de animaciones de Perdido En Un Mar De Pesadillas para que reaccionen correctamente a los nuevos ataques de Wesker y al ácido de los Blobs.
 - `TextFixes` — **ON:** utiliza archivos de texto personalizados del juego para garantizar que todos los textos nuevos y corregidos se muestren correctamente, independientemente de los mods instalados.
 - `HudIconFixes` — **ON:** desactiva las correcciones de la interfaz que dependen de un archivo `cp_life_360.lsp` modificado, como las relacionadas con las texturas de nombres de personajes que faltan en los modos ajenos a los DLC.
