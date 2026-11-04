@@ -116,7 +116,7 @@ Lista completa de correcciones, restauraciones, mejoras y modificaciones opciona
 *Correcciones destinadas a mejorar la compatibilidad con distintos idiomas.*
 
 - Se han corregido pequeñas erratas en inglés y español.
-- Se ha incorporado la traducción al ruso del contenido descargable realizada por INSERTHERE, junto con mejoras generales de Infernal.
+- Se ha incorporado la traducción al ruso del contenido descargable realizada por BiOS, junto con mejoras generales de Infernal.
 - Algunos textos del juego ya no están definidos directamente en el código, lo que permite realizar determinadas correcciones específicas de cada idioma:
   - "Chris Redfield" y "Sheva Alomar" en la selección de atuendos.
   - "Chris Redfield", "Josh Stone" y "Jill Valentine" en las listas de sesiones y clasificaciones de Perdido En Un Mar De Pesadillas y Evasión De La Desesperada.
