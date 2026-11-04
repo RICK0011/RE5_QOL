@@ -120,7 +120,7 @@ Complete list of fixes, restorations, improvements, and optional modifications.
 *A set of fixes aimed at improving localization support*
 
 - Minor typos fixed in English and Spanish.
-- Implemented Russian DLC translation by BiOS and general improvements made by Infernal.
+- Implemented Russian DLC translation by BiOS, mayhem, Schrödinger's kid, and Progibator_2004 and general improvements made by Infernal.
 - Some in-game text is no longer hardcoded, which allows for certain language-specific fixes:
   - "Chris Redfield" and "Sheva Alomar" in Costume Select.
   - "Chris Redfield", "Josh Stone" and "Jill Valentine" in Lost in Nightmares and Desperate Escape session lists and Leaderboards.
