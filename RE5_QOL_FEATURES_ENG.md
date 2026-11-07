@@ -214,7 +214,7 @@ Use of numbers generally signifies the existence of two or more options.
 - `UnlockStoryCharacters` — **ON** = Allows the player to play as Sheva, Jill and Josh in the Main Campaign, Lost in Nightmares and Desperate Escape respectively, without having to beat the different modes first.
 - `RemoveFilter` — **1** = Less aggressive. Keeps certain effects such as when you're dying, but doesn't work in cutscenes. **2** = More aggressive. Works in cutscenes, but also gets rid of a few post-processing effects in the process.
 - `RE4MercsScoring` — **ON** = Combo bonus values will match those of the original RE4's Mercenaries. Melee kills will not grant +5 seconds, and no bonus points will be awarded upon killing 150/400 enemies per second remaining.
-- `FourPlayerMercs` — **ON** = Allows for up to four players in Mercenaries in online mode. Scores will not be saved (solo or online duo) or uploaded (any) to the Leaderboards while this setting is enabled, regardless of player count.
+- `FourPlayerMercs` — **ON** = Allows for up to four players in Mercenaries in online mode. Scores will not be saved or uploaded to the Leaderboards while this setting is enabled on Solo or Duo, regardless of player count.
 - `RandomMinigameBGM` — **ON** = Randomizes the Mercenaries and Versus tracks. Updates on every quick restart and requires DLC content.
   - Assault Fire (The Mercenaries)
   - Killers (Survivors)
