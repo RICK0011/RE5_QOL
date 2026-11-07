@@ -208,7 +208,7 @@ Los valores numéricos suelen indicar que hay dos o más opciones disponibles.
 - `UnlockStoryCharacters` — **ON:** permite jugar con Sheva, Jill y Josh en la campaña principal, Perdido En Un Mar De Pesadillas y Evasión De La Desesperada, respectivamente, sin tener que completar antes esos modos.
 - `RemoveFilter` — **1:** opción menos agresiva. Conserva ciertos efectos, como los que aparecen cuando estás agonizando, pero no funciona en las escenas cinemáticas. **2:** opción más agresiva. Funciona en las escenas cinemáticas, pero también elimina algunos efectos de posprocesado.
 - `RE4MercsScoring` — **ON:** los valores de bonificación por combo coinciden con los del modo Mercenarios del RE4 original. Las bajas cuerpo a cuerpo no añaden 5 segundos y no se conceden puntos adicionales por cada segundo restante al eliminar 150/400 enemigos.
-- `FourPlayerMercs` — **ON:** permite jugar en línea con hasta cuatro jugadores en Mercenarios. Mientras esté activada, las puntuaciones no se guardarán (ni en individual ni en dúo en línea) ni se subirán a las clasificaciones (en ningún caso), independientemente del número de jugadores.
+- `FourPlayerMercs` — **ON:** permite jugar en línea con hasta cuatro jugadores en Mercenarios. Mientras esté activada, las puntuaciones no se guardarán ni en Solo o en Dúo en línea, ni se subirán a las clasificaciones en ningún caso, independientemente del número de jugadores.
 - `RandomMinigameBGM` — **ON:** reproduce aleatoriamente los temas musicales de Mercenarios y Versus. Cambia la música con cada reinicio rápido y requiere el contenido descargable:
   - Assault Fire (The Mercenaries)
   - Killers (Survivors)
